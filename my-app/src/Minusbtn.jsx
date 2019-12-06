@@ -1,8 +1,8 @@
 import React from "react"
 
-const Minusbtn = ()=>
-	<div> 
-		<button> - </button>
+const Minusbtn = ({onClick})=>
+	<div > 
+		<button onClick={onClick} className="minus"> - </button>
 	</div>
 
 export default Minusbtn

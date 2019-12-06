@@ -1,8 +1,8 @@
 import React from  "react"
 
-const Refreshbtn = () => 
+const Refreshbtn = ({onClick}) => 
 	<div>
-		<button> @ </button>
+		<button onClick={onClick}className="refresh"> @ </button>
 	</div>
 
 

@@ -1,8 +1,8 @@
 import React from "react"
 
-const Plusbtn = ()=>
+const Plusbtn = ({onClick})=>
 	<div>
-		<button>+</button>
+		<button className="plus" onClick={onClick}>+</button>
 	</div>	
 
 export default Plusbtn
